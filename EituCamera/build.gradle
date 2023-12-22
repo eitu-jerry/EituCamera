@@ -107,9 +107,9 @@ afterEvaluate {
                 from components.release
 
                 // You can then customize attributes of the publication as shown below.
-                groupId = 'com.github.eitu-jerry' //  =  예: mmol93
-                artifactId = 'EituCamera' // =  예: TestLibrary
-                version = '0.1.0' // =  예: 1.0.0
+                groupId = 'com.github.eitu-jerry'
+                artifactId = 'EituCamera'
+                version = '0.1.0'
             }
             // Creates a Maven publication called “debug”.
             debug(MavenPublication) {
